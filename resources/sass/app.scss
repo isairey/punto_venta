@@ -1,0 +1,16 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Placeholder Login
+input#user::placeholder,
+input#password::placeholder,
+a#dashboard-navbar,
+a#nav-item-login {
+    color: #d4d3d3;
+}
